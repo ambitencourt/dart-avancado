@@ -123,11 +123,11 @@ funcaoClosures() {
 
 class Objeto {
   //classes não usam parâmetros como funções
-  String? id2, nome;
+  String id2, nome;
   dynamic descricao;
   Objeto(
-      {this.id2,
-      this.nome,
+      {required this.id2,
+      required this.nome,
       this.descricao}); //Construtor da classe Objetos nomeados
   factory Objeto.fromMap(Map<String, dynamic> mapa) {
     return Objeto(
