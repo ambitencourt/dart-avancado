@@ -3,7 +3,7 @@ void main() {
   print('Meu nome é ' +
       "$nome2"); //Quando se trata de interpolação, pode usar o dólar sem chaves
 // var nome = 'Adriano';
-// print('Meu nome é = ${nome}'); //Quando se trata de operação, é necessário o uso de chaves
+// print('Meu nome é = ${nome}'); //Quando se trata de operação, é necessário o uso de chaves para interpolação
 // É importante identificar a variável, pois o DART testa cada variável não declarada para saber de qual se trata, e se já identificar, otimiza o código.
 // Variáveis do tipo var, não podem ser alteradas no tipo após atribuição da mesma:
 // Ex: var numero = 3;
