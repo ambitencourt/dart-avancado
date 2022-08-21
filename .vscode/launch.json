@@ -1,0 +1,12 @@
+{
+
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "via_cep",
+            "cwd": "20 - JSON-REST\\2 - APIS\\Projetos\\via_cep",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}

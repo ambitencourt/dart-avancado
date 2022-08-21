@@ -61,4 +61,16 @@ void main() {
   for (var fruta in frutas) {
     print('for-in: $fruta');
   }
+
+//Exemplo com explicação da lógica
+  ///Names é uma lista e cada elemento da lista possui um index(índice)
+  var names = ['Adriano', 'Bryan', 'Catiana', 'Vitória'];
+
+  ///Para (i inicia no index 0; enquanto i for menor que a contagem total de nomes;
+  ///vai incrementar mais um index em i);
+
+  for (var i = 0; i < names.length; i++) {
+    ///Imprima(os nomes baseados no index de i)
+    print(names[i]);
+  }
 }
