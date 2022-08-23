@@ -4,14 +4,22 @@ import 'CLASSES/03-Pessoa.dart';
 import 'CLASSES/04-Usuario.dart';
 
 ///
-/// Os construtores devem ter o mesmo nome da classe
+/// Os construtores devem ter o mesmo nome da classe, porém os construtores nomeados podem ter o nome que preferir
 /// São iniciados quando instanciamos as classes
 /// Podendo fazer configurações iniciais
-///
+/// Faz com que a partir de uma classe consiga criar as instâncias.
+/// Se for passar parâmetros para o construtor, deve-se setar os parâmetros globais com os locais.
+/// Ex:
+/// class Pessoa{
+/// String? nome;
+/// Pessoa(String? primeiroNome){
+///   nome = primeiroNome;
+///    }
+/// }
 
 void main() {
   Objeto objeto = new Objeto();
-// É dentro dos parênteses que passamos os parâmetros para obter as configurações inicia
+// É dentro dos parênteses que passamos os parâmetros para obter as configurações inicias
   objeto.nome = 'mesa';
   print('Nome: ${objeto.nome}');
   Animal animal = Animal('Cloe', 'Pug');

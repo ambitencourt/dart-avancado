@@ -8,12 +8,12 @@ import 'CLASSES/Usuario.dart';
 void main() {
   Pessoa pessoa1 = new Pessoa(); //É necessário instanciar uma classe,
   //assim teremos acesso aos métodos e atributos de uma classe
+  //Instanciar na prática nada mais é que criar uma variável para a classe já criada em outro lugar que necessite dela
+  //Quando se instancia, quer dizer que está armazenando em um novo ponto da memória Ram e ficando assim disponível no app em tempo de execução do app;
   pessoa1.nome = 'Adriano';
   pessoa1.idade = 38;
   print('Nome: ${pessoa1.nome} idade: ${pessoa1.idade}');
-  Pessoa pessoa2 =
-      Pessoa(); //No Dart não precisa declarar new, porém se tratando de imagens
-  //é aconselhável quando acessar a imagem diretamente.
+  Pessoa pessoa2 = Pessoa(); //No Dart não precisa declarar new
   pessoa2.nome = 'Bryan';
   pessoa2.idade = 11;
   print('Nome: ${pessoa2.nome} idade: ${pessoa2.idade}\n');
